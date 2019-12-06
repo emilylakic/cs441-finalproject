@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ombre"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -11,5 +12,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/mainlogo" />
+
+    <Button
+        android:id="@+id/button"
+        android:textColor="@color/white"
+        android:textSize="22px"
+        android:background="#a8c6e2"
+        android:layout_width="370px"
+        android:layout_height="45px"
+        android:layout_marginTop="310px"
+        android:layout_marginLeft="400px"
+        android:text="Get Started" />
 
 </RelativeLayout>
