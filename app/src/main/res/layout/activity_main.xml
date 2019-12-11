@@ -20,7 +20,7 @@
         android:background="#a8c6e2"
         android:layout_width="370px"
         android:layout_height="45px"
-        android:layout_marginTop="310px"
+        android:layout_marginTop="308px"
         android:layout_marginLeft="400px"
         android:text="Get Started" />
 
