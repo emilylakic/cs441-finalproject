@@ -3,19 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/ombrescreenbg"
     android:layout_height="match_parent"
     tools:context=".SecondScreen">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="-435dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/johnny" />
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_centerHorizontal="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <VideoView
             android:id="@+id/video_view"
+            android:layout_gravity="center"
             android:layout_width="240dp"
             android:layout_height="254dp" />
 
